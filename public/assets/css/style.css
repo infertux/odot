@@ -1,0 +1,114 @@
+html {
+    overflow-y: scroll;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    width: 640px;
+    background: #111;
+    color: #eee;
+    font: 14px Helmet, Freesans, sans-serif;
+    line-height: 24px;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    color: #69f;
+}
+
+a:hover, a:active {
+    outline: none;
+    color: #8af;
+}
+
+::-moz-selection {
+    background: #fcd700;
+    color: #000;
+}
+
+::selection {
+    background: #fcd700;
+    color: #000;
+}
+
+nav {
+    font-variant: small-caps;
+}
+
+header > h1 {
+    float: left;
+    margin: 0;
+    font-variant: small-caps;
+}
+
+h1 a {
+    text-decoration: none
+}
+
+article {
+    clear: both;
+    padding: 20px 0;
+}
+
+header .links {
+    float: right;
+    margin: 0;
+    text-align: right;
+}
+
+article .links {
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+}
+
+article .links li {
+    display: inline;
+    padding: 10px;
+}
+
+footer {
+    font-size: 32px
+}
+
+.left {
+    text-align: left;
+}
+
+.links {
+    list-style: none;
+}
+
+#previous {
+    float: left;
+    text-align: left;
+}
+
+#next {
+    float: right;
+    text-align: right;
+}
+
+#previous, #next {
+    width: 80px
+}
+
+#title {
+    font-style: italic
+}
+
+#stuff {
+    padding: 100px;
+    margin: 50px;
+    border-color: #9ecaed;
+    box-shadow: 0 0 50px #9ecaed;
+    font-size: 32pt;
+}
+
